@@ -34,6 +34,8 @@ npm start
 
 Visit [http://localhost:5000](http://localhost:5000) in your browser and click to allow access to your webcamera.
 
+![Screenshot](demo.png)
+
 **NOTE: Some browsers may require https in order to access the webcamera.**
 
 ## Training a Model
@@ -47,6 +49,13 @@ Visit [http://localhost:5000](http://localhost:5000) in your browser and click t
 - Stop your local server by pressing **ctrl** and **c** at the same time in your terminal window
 - Type `npm start` to restart your server
 - If you're familiar with HTML / CSS, try adding some styling to the page.
+
+### Considerations
+
+- Did you provide enough input images?
+- Do the input images represent users of your application?
+- What gaps might exist in your model?
+- Are you able to 'trick' your trained model?
 
 ## Deploy to Heroku
 

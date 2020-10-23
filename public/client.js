@@ -50,7 +50,10 @@ async function predict() {
     // predict can take in an image, video or canvas html element
     const prediction = await model.predict(webcam.canvas);
     for (let i = 0; i < maxPredictions; i++) {
-        const classPrediction = prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
+        let classPrediction = prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
+        if (prediction[i].probability.toFixed(2) > (1 / maxPredictions )) {
+            classPrediction = '<p class="match">' + classPrediction + '</p';
+        }
         $('#label-container').children().eq(i).html(classPrediction)
     }
 }
