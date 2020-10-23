@@ -10,7 +10,7 @@ In this workshop, we will use *supervised learning* to build a model that can be
 
 There are many different approaches to machine learning. We will be using *supervised learning* which is the process of providing input data and classifying that data into predefined buckets. This approach is good when the input and output parameters are well defined (e.g. wearing a facemask or not wearing a facemask). Depending on the problem you are trying to solve, you may want to explore [other approaches](https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861). 
 
-Results from *supervised learning* models will depend greatly on the quality and quantity of input provided when creating the model. A small sample dataset will result in poor classification. It's important to thouroughly test your model before using it to make decisions in a real world setting. Machine Learning models can (and often do) [have bias](https://lionbridge.ai/articles/7-types-of-data-bias-in-machine-learning/). 
+Results from *supervised learning* models will depend greatly on the quality and quantity of input provided when creating the model. A small sample dataset will result in poor classification. It's important to thouroughly test your model before using it to make decisions in a real world setting. Keep in mind that Machine Learning models can and often do still [have bias](https://lionbridge.ai/articles/7-types-of-data-bias-in-machine-learning/).
 
 ## Prerequisites
 
